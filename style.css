@@ -29,7 +29,7 @@ p {
 
   border-bottom-width: 2px;
   border-bottom-color: black;
-  border-bottom-style: dashed;
+  border-bottom-style: solid;
 }
 
 .main-box .left-box {
@@ -40,11 +40,19 @@ p {
 
   border-right-width: 2px;
   border-right-color: black;
-  border-right-style: dashed;
+  border-right-style: solid;
+}
+
+.left-box .main-title {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+
+  padding-bottom: 25px;
 }
 
 .right-box {
-  width: 22.5%;
+  width: 10%;
   display:  inline-block;
 }
 
@@ -76,14 +84,37 @@ p {
   border-bottom-style: solid;
 }
 
+.post-titles {
+  margin-bottom: 2px;
+}
+
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: black;
 }
 
 a:hover {
-  border-bottom: 1px dashed;
+  border-bottom: 1px;
+  color: grey;
 }
 
 .navlist {
   margin: 25px auto 0 25px;
+}
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: white;
 }
