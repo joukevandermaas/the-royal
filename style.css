@@ -8,7 +8,7 @@
 html, body {
   font-family: 'Slabo 27px', serif;
   min-height: 100%;
-  background-color: #363636;
+  background-color: #E6E6E6;
 }
 
 p {
@@ -44,6 +44,14 @@ p {
 }
 
 .left-box .main-title {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+
+  padding-bottom: 25px;
+}
+
+.center-box .main-title {
 
   font-family: 'Raleway', sans-serif;
   font-size: 60px;
@@ -117,4 +125,21 @@ a:hover {
     display:inline-block;
     padding:10px;
     color: white;
+}
+
+.center-box {
+  width: 75%;
+  margin: 0 auto;
+  height: 100%;
+  background: #eee;
+  color: #333;
+}
+
+.center-box .profile-pic {
+  width: 200px;
+  height: auto:auto;
+
+  display: block;
+  margin: 25px 25px 25px 25px;
+
 }
