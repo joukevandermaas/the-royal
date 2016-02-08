@@ -127,6 +127,13 @@ a:hover {
     color: white;
 }
 
+.top-box .crown2 {
+    width: 250px;
+    position: absolute;
+    top: 7px;
+    right: 210px;
+}
+
 .center-box {
   width: 75%;
   margin: 0 auto;
@@ -142,4 +149,33 @@ a:hover {
   display: block;
   margin: 25px 25px 25px 25px;
 
+}
+
+.center-box .blog-post {
+
+  margin-bottom: 35px;
+  border-bottom-style: none;
+}
+
+.top-box .main-title {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 75px;
+  position: absolute;
+  margin-top: 0px;
+  padding-bottom: 25px;
+}
+
+.top-box .half-crown-logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    padding-top: 7px;
+  }
+
+
+.home-center-box .center-pic {
+  width: 610px;
+  height: auto;
+  padding: 70px 25px 70px 25pc;
 }
